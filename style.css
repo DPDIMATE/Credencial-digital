@@ -203,3 +203,29 @@ body {
     box-shadow: 0 0 8px #48e5ff66;
     border-radius: 5px;
 }
+/* Ajustes para dispositivos móviles */
+@media (max-width: 480px) {
+    .credencial {
+        flex-wrap: wrap;
+    }
+
+    .encabezado {
+        align-self: flex-start;
+    }
+
+    .insignia {
+        top: 12px;
+        right: 12px;
+        font-size: 8px;
+        padding: 3px 6px;
+    }
+
+    .datos-personales {
+        padding-top: 15px;
+    }
+
+    .datos-personales h1 {
+        font-size: 18px;
+        overflow-wrap: anywhere;
+    }
+}
